@@ -1,0 +1,27 @@
+<<!DOCTYPE html>
+<html>
+<head>
+ 
+  <title>guess a number</title>
+</head>
+<body>
+  <h1>Guess a number.</h1>
+  <script >
+    // Generate a random number between 1 and 10
+const randomNumber = Math.floor(Math.random() * 10) + 1;
+
+let y=prompt("hey,whats your name");
+alert("so,dear"+y+" lets play a simple guessing game..");
+let x=prompt("type in a number from 1 to 10..");
+if(randomNumber==x)
+{
+  document.write("congratulations your guess was correct");
+
+}
+else{
+document.write("oops!!you got it wrong...the correct number was "+randomNumber);}
+</script>
+
+
+</body>
+</html>
